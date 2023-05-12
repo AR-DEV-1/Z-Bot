@@ -1,0 +1,9 @@
+@RestController
+@RequestMapping("/books")
+public class BookController {
+    @GetMapping("/")
+    public List<Book> getAllBooks() {
+        // Code to retrieve all books from database
+        return books;
+    }
+}
